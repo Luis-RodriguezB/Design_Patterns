@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{1F6F4F7B-B927-4C4F-A346-8B2A64097D3E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A-Creational", "A-Creational", "{5FDD0268-D9B3-4C51-9B44-4974385C6ACF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Singleton", "01-Singleton", "{EB53B02D-C51A-4761-905D-E41201AFC874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{3D12CE8A-D6C6-440C-8450-2B51FF5E356E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +15,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F6F4F7B-B927-4C4F-A346-8B2A64097D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F6F4F7B-B927-4C4F-A346-8B2A64097D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F6F4F7B-B927-4C4F-A346-8B2A64097D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F6F4F7B-B927-4C4F-A346-8B2A64097D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D12CE8A-D6C6-440C-8450-2B51FF5E356E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D12CE8A-D6C6-440C-8450-2B51FF5E356E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D12CE8A-D6C6-440C-8450-2B51FF5E356E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D12CE8A-D6C6-440C-8450-2B51FF5E356E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB53B02D-C51A-4761-905D-E41201AFC874} = {5FDD0268-D9B3-4C51-9B44-4974385C6ACF}
+		{3D12CE8A-D6C6-440C-8450-2B51FF5E356E} = {EB53B02D-C51A-4761-905D-E41201AFC874}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F8FBA3E-2212-4D48-8ACD-6F58B4437118}
