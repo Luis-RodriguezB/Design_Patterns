@@ -1,4 +1,4 @@
-﻿Console.Title = "Flyweight";
+﻿Console.Title = "Flyweight Pattern";
 
 var trees = new List<Tree>();
 
