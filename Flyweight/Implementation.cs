@@ -1,4 +1,10 @@
 ﻿
+/// Estado intrínseco: Parte inmutable que puede ser compartida entre varios objetos.
+/// Estado extrínseco: Parte mutable que es única para cada objeto y se pasa en el momento de uso.
+
+/// <summary>
+/// Flyweight class: Define el estado intrínseco compartido
+/// </summary>
 public class TreeType
 {
     public string Name { get; }
